@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quality Outfitters</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="cursor"></div>
+
+<header>
+    <div class="logo">Quality Outfitters</div>
+
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav id="navMenu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Collection</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <canvas id="smokeCanvas"></canvas>
+
+    <div class="hero-content">
+        <h1>Elegance <span>Redefined</span></h1>
+        <p>Premium suits, refined shoes, and timeless formalwear crafted for the modern gentleman.</p>
+
+        <div class="hero-buttons">
+            <button class="btn-glow magnetic">Shop Now</button>
+            <button class="btn-outline magnetic">Book Consultation</button>
+        </div>
+    </div>
+</section>
+
+<section class="products" id="products">
+    <h2>Collection</h2>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="images/suit1.jpg">
+            <div class="overlay"><button class="btn-glow magnetic">View</button></div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/tie1.jpg">
+            <div class="overlay"><button class="btn-glow magnetic">View</button></div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact</h2>
+
+    <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message"></textarea>
+        <button class="btn-glow magnetic">Send</button>
+    </form>
+
+    <div class="socials">
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
